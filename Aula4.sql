@@ -3,13 +3,17 @@
 -- Apagar o banco de dados criado na aula anterior
 DROP DATABASE cadastro;
 
-/* Criar um banco de dados aprimorado, definindo o seu `charset` 
-   para aceitar as acentuações do português brasileiro */
+/* 
+	Criar um banco de dados aprimorado, definindo o seu `charset` 
+    para aceitar as acentuações do português brasileiro 
+*/
 CREATE DATABASE cadastro
 DEFAULT CHARSET utf8mb4;
 
 -- Recriar a tabela com os tipos mais bem dimensionados e com `constraints`
--- Todo dado em SQL fica entre aspas simples '' e toda palavra de definição fica entre ``
+/* 
+	Todo dado em SQL fica entre aspas simples '' e toda palavra de definição fica entre ``
+*/
 USE cadastro;
 CREATE TABLE pessoas (
 	`id` int NOT NULL AUTO_INCREMENT,

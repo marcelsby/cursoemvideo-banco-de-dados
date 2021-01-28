@@ -24,8 +24,8 @@ VALUES
 (DEFAULT, 'Creuza', '1920-12-30', 'F', '50.2', '1.65', DEFAULT);
 
 /* 
-Adalgiza - Se a ordem dos valores for a mesma dos campos definidos na estrutura
-da tabela não é necessário especificar os campos antes dos valores no INSERT INTO
+	Adalgiza - Se a ordem dos valores for a mesma dos campos definidos na estrutura
+	da tabela não é necessário especificar os campos antes dos valores no INSERT INTO
 */
 INSERT INTO pessoas VALUES
 (DEFAULT, 'Adalgiza', '1930-11-02', 'F', '63.2', '1.75', 'Irlanda');

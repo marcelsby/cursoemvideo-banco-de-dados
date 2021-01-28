@@ -9,7 +9,7 @@ SHOW DATABASES;
 -- Selecionar um banco de dados para aplicar as queries
 USE cadastro;
 
--- Mostra qual BD está atualmente selecionado e outras
+-- Mostra qual BD está atualmente selecionado e outros detalhes
 -- Esse comando funciona apenas no console
 -- STATUS;
 
