@@ -83,7 +83,7 @@ WHERE idcurso >= '9'
 LIMIT 3;
 
 /*
-	Operadores aritméticos funcionam em SQL (=, >=, <=, !=, etc...)
+	Operadores relacionais funcionam em SQL (=, >=, <=, !=, etc...)
 */
 
 SELECT * FROM cursos;
