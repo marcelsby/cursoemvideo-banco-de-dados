@@ -37,7 +37,7 @@ UPDATE cursos SET nome = 'POO' WHERE idcurso = '9';
 -- Seleciona todos os cursos com o atributo nome contendo:
 	-- 'ph' no início
 	-- '%' qualquer coisa no meio
-	-- um caractere 'p'
+	-- o penúltimo caractere 'p'
 	-- e no final UM caractere qualquer '_'
 SELECT idcurso, nome, carga
 FROM cursos
@@ -72,7 +72,7 @@ ORDER BY profissao ASC;
 -- Quero saber quantos cursos com a carga horária maior que 50 horas existem na minha tabela 'cursos'
 SELECT COUNT(carga) FROM cursos WHERE carga > 50;
 
--- Quero saber quantos gafanhotos eu tenho nascidos no século XIX
+-- Quero saber quantos gafanhotos eu tenho nascidos no século XX
 SELECT COUNT(id) FROM gafanhotos WHERE nascimento BETWEEN '1901-01-01' and '2001-01-01';
 
 -- Quero saber quantos gafanhotos eu tenho na minha tabela gafanhotos
